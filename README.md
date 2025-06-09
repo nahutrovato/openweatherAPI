@@ -54,16 +54,17 @@ cypress/reports/html/index.html
 5. View the report
 
 Open the index.html file in your browser to see detailed test results.
-📚 Project structure
+## 📚 Project structure
 
-├── cypress/
-│   ├── e2e/               # Tests with Cucumber (.feature and .js files)
-│   ├── support/           # Custom commands and setup
-│   └── reports/           # Generated JSON and HTML reports
-├── .env                   # Environment variables (not committed)
-├── cypress.config.js      # Cypress configuration
-├── package.json           # NPM dependencies and scripts
-└── README.md              # This file
+    ├── cypress/
+    │   ├── e2e/               # Tests with Cucumber (.feature and .js files)
+    │   ├── support/           # Custom commands and setup
+    │   └── reports/           # Generated JSON and HTML reports
+    ├── .env                   # Environment variables (not committed)
+    ├── cypress.config.js      # Cypress configuration
+    ├── package.json           # NPM dependencies and scripts
+    └── README.md              # This file
+
 
 🛠️ Available scripts
 
