@@ -37,6 +37,7 @@ npm install
 Create a .env file in the root folder with the following:
 
 OPENWEATHER_API_URL='https://api.openweathermap.org/data/2.5'
+
 OPENWEATHER_API_KEY=your_api_key_here
 
     ⚠️ Important: The .env file is not committed for security reasons and keep your keys safe.
