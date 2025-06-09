@@ -1,0 +1,25 @@
+{
+  "name": "openweatherapi",
+  "version": "1.0.0",
+  "description": "Open Weather API - Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Test",
+    "Automation",
+    "Open",
+    "Weather",
+    "API",
+    "challenge"
+  ],
+  "author": "Nahuel Trovato",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.4.1"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
