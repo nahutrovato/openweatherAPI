@@ -66,7 +66,11 @@ Open the index.html file in your browser to see detailed test results.
 └── README.md              # This file
 
 🛠️ Available scripts
+
 Script	Description
+
 npm run test	Run Cypress tests
+
 npm run test-report	Run tests and generate Mochawesome report
+
 npm run clean:reports	Remove old test reports
