@@ -23,3 +23,20 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add('getWeatherByCity', (city) => {
+
+  return cy.request({
+    method: 'GET',
+    url: Cypress.env('OPENWEATHER_API_URL') + `/weather?q=${city}&appid=` + Cypress.env('OPENWEATHER_API_KEY'),
+    failOnStatusCode: false,
+  });
+});
+
+Cypress.Commands.add('getWeatherByCoordinates', (lat,lon) => {
+
+  return cy.request({
+    method: 'GET',
+    url: Cypress.env('OPENWEATHER_API_URL') + `/weather?lat=${lat}&lon=${lon}&appid=` + Cypress.env('OPENWEATHER_API_KEY'),
+  
+  });
+});
