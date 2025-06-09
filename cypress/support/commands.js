@@ -40,3 +40,12 @@ Cypress.Commands.add('getWeatherByCoordinates', (lat,lon) => {
   
   });
 });
+
+Cypress.Commands.add('getWeatherByCityNonAPIKEY', (city) => {
+
+  return cy.request({
+    method: 'GET',
+    url: Cypress.env('OPENWEATHER_API_URL') + `/weather?q=${city}&appid=`,
+    failOnStatusCode: false,
+  });
+});
